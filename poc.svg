@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0b1220"/>
+
+  <text x="40" y="80"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="44"
+        font-weight="700"
+        fill="#ffffff">
+    HTML Injection PoC
+  </text>
+
+  <text x="40" y="135"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="22"
+        fill="#cbd5e1">
+    If you can see this text rendered from a remote SVG,
+  </text>
+
+  <text x="40" y="165"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="22"
+        fill="#cbd5e1">
+    the endpoint is reflecting attacker-controlled HTML/SVG content.
+  </text>
+
+  <rect x="40" y="205" width="820" height="55" rx="14" fill="#111827" stroke="#334155" stroke-width="2"/>
+
+  <text x="60" y="242"
+        font-family="Consolas, Menlo, monospace"
+        font-size="18"
+        fill="#22c55e">
+    PoC: Controlled SVG loaded successfully ✅
+  </text>
+
+  <text x="760" y="285"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="14"
+        fill="#94a3b8">
+    harmless test
+  </text>
+</svg>
